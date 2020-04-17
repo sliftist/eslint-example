@@ -1,0 +1,16 @@
+/* NOTE: tsconfig.json only exists for eslint. The project is not intended to be compiled to JS. */
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "build",
+    "allowJs": true,
+    "target": "es6"
+  },
+  "include": [
+    "*.js",
+    "*.ts",
+    "./test.js",
+    "**/*.js"
+  ]
+}
